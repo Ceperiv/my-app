@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es3",
     "lib": [
       "dom",
       "dom.iterable",
@@ -18,7 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    "types": ["types-for-adobe/AfterEffects/18.0"],                                      /* Specify type package names to be included without being referenced in a source file. */
+    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
+
   },
   "include": [
     "src"
